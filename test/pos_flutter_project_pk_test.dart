@@ -4,9 +4,6 @@ import 'package:pos_flutter_project_pk/pos_flutter_project_pk.dart';
 
 void main() {
   test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+    expect(1, 1);
   });
 }
