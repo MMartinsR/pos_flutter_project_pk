@@ -11,7 +11,7 @@ class Task {
   );
 
   static Task fromMap(String id, Map<String, dynamic> map) {
-    var task = Task(map['name'], map['date']);
+    var task = Task(map['nome'], map['data']);
     task.id = id;
     return task;
   }
