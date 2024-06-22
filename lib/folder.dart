@@ -10,9 +10,8 @@ class Folder {
     this.description,
   );
 
-  Folder.fromJson(Map<String, dynamic> json)
-      : id = json['id'],
-        name = json['name'],
+  Folder.fromJson(String this.id, Map<String, dynamic> json)
+      : name = json['name'],
         description = json['description'];
 
   Map<String, dynamic> toJson() => {
