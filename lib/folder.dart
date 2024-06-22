@@ -15,7 +15,8 @@ class Folder {
         name = json['name'],
         description = json['description'];
 
-  Map<String, dynamic> forJson() {
-    return {'name': name, 'description': description};
-  }
+  Map<String, dynamic> toJson() => {
+        'name': name,
+        'description': description,
+      };
 }
